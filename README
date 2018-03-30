@@ -1,0 +1,14 @@
+Scrapy downloader middleware that allows for delaying a request by a
+number of seconds.
+
+To use, enable the downloader middleware and set `delay_request` to a
+number of seconds in request meta.
+
+Starting with Scrapy 1.0, this functionality can be implemented in a
+very simple manner, so this is not an active project. No copyright,
+feel free to copy this code into your own project and use it however
+you want.
+
+`scrapy_delayed_requests.py` works with Scrapy 1.0 or newer.
+`scrapy_delayed_requests_old.py` works with some previous version
+Scrapy.
